@@ -1,15 +1,7 @@
 {
-    "name": "tima/davinchi",
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
-        }
-    },
-    "authors": [
-        {
-            "name": "tima",
-            "email": "tima.stella88@gmail.com"
-        }
-    ],
-    "require": {}
+   "autoload": {
+    "psr-4": {
+        "App\\" : "app/"
+    }
+   }
 }

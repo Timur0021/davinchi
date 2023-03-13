@@ -1,6 +1,5 @@
 <?php
-//include ('path.php');
-include ('con.php');
+include ('path.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,50 +19,36 @@ include ('con.php');
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Rubik+Dirt&display=swap" rel="stylesheet">
     </head>
     <body>
-        
-        <!-- Slider Show -->
-        <div class="container">
-            <div class="row">
-                <h2 class="slider-title"> Наші новинки </h2>
-            </div>
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="src/images/list.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption-hack carousel-caption d-none d-md-block">
-                  <h5>
-                  <a href='#'>First slide label</a>
-                  </h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="src/images/luis.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption-hack carousel-caption d-none d-md-block">
-                  <h5>
-                  <a href='#'>Second slide label</a>
-                  </h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="src/images/nikola.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption-hack carousel-caption d-none d-md-block">
-                  <h5>
-                    <a href='#'>Third slide label</a>
-                  </h5>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-        <!-- Slider Show OFF -->
+        <header class="container-fluid">
+            <div class="container">
+               <div class="row">
+                   <div class="col-4">
+                       <h1>
+                           <a href="#"> DAVINCHI </a><i class="fa-solid fa-paw"></i>
+                       </h1>
+                   </div>
+                   <nav class="col-8">
+                       <ul>
+                           <li><a href="#">Головна</a></li>
+                           <li><a href="#">Про нас</a></li>
+                           <li><a href="#">Послуги</a></li>
+                           <li>
+                           
+                                <a href="#">
+                                     <i class="fa fa-user"></i>
+                                    Увійти
+                                </a>
+                                <ul>
+                                    <li><a href="#">Адмін панель</a></li>
+                                    <li><a href="#">Вихід</a></li>
+                                </ul>
+                              
+                           </li>
+                       </ul>
+                   </nav>
+               </div>
+           </div>
+        </header>
         <!-- Main content -->
         <div class="container">
           <div class="content row">
@@ -71,16 +56,15 @@ include ('con.php');
             <div class="main col-md-9 col-12">
                 <h3>Остані публікації</h3>
                
-              <div class="post row">
-               <div class="img col-12 col-md-4">
+              <div class="single_post row">
+               <div class="img col-12">
                   <img src="src/images/list.png" alt="" class="img-thumbnail">
                 </div>
-                <div class="post_text col-12 col-md-8">
-                  <h3>
-                    <a href="#">Захід сонця</a>
-                  </h3>
+                <div class="info">
                   <i class="far fa-user">Timur</i>
                   <i class="far fa-calendar">Mar 11, 2019</i>
+                </div>
+                <div class="single_post_text col-12">
                   <p>
                     Дуже класна стаття
                   </p>

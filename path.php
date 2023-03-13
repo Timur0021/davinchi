@@ -1,2 +1,2 @@
-<?
-const BASE_URL = 'http://localhost/davinci/';
+<?php
+//const BASE_URL = 'http://localhost/davinci/';

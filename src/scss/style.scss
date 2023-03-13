@@ -304,3 +304,44 @@ div.section.topics{
     left: 0px;
     padding-top: 20px;
 }
+/* POST */
+.single_post{
+    margin-bottom: 30px;
+    .info{
+        margin: 20px 0px;
+    }
+    .info i{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    a{
+        text-decoration: underline;
+        color: black;
+    }
+    
+}
+/* FORM REGISTRATION */
+
+.reg_form h3 {
+    text-align: center;
+    margin: 33px;
+}
+
+.reg_form input {
+    height: 2.2rem;
+}
+
+
+.reg_form a {
+    font-size: 1.2rem;
+    transition: all .3s;
+    color: #5c5b5b;
+    text-decoration: underline;
+    margin-left: 70px;
+}
+
+.mb-3.col-12.col-md-4 a:hover {
+    margin-left: 55px;
+    transition: all .3s;
+}
+
